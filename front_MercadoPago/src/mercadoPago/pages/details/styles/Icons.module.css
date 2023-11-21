@@ -1,0 +1,14 @@
+.div_container {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #ededed;
+  border-radius: 50%;
+}
+
+.div_img {
+  width: 32px;
+  height: 32px;
+}

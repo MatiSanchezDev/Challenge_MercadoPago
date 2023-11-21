@@ -1,0 +1,15 @@
+.div_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  width: 38px;
+  border: solid 1px #ededed;
+  background-color: #ffffff;
+  border-radius: 55%;
+}
+
+.span_img {
+  height: auto;
+  width: 16px;
+}
