@@ -5,7 +5,7 @@ import { Loader, Error } from "../../components";
 import { useApiHook } from "../../../hooks/useApiHook";
 
 const apiFl0 = "https://testapi-dev-afxk.4.us-1.fl0.io/consulta";
-const apiLocalHost = "http://localhost:1234/consulta";
+//const apiLocalHost = "http://localhost:1234/consulta";
 
 export const HomePage = () => {
   const { cobroFiltrado, setCobroFiltrado, mostrarCobros, setMostrarCobros } =
@@ -14,7 +14,9 @@ export const HomePage = () => {
 
   return (
     <section>
+      <div>
       {loading && <Loader />}
+      </div>
 
       {loading !== true && (
         <SaldoActual
